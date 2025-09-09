@@ -16,12 +16,13 @@ const progressBar = document.getElementById("progress");
 
 const quizQuestions = [
   {
-    question: "What is the capital of France?",
+    question:
+      "What is the primary function of the lingual papillae on the surface of the tongue?",
     answers: [
-      { text: "London", correct: false },
-      { text: "Berlin", correct: false },
-      { text: "Paris", correct: true },
-      { text: "Madrid", correct: false },
+      { text: "The tongue", correct: false },
+      { text: "The skin", correct: true },
+      { text: "The eyes", correct: false },
+      { text: "The heart", correct: false },
     ],
   },
   {
